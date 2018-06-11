@@ -1,4 +1,4 @@
-require 'pry'
+require 'pry'exit
 require 'nokogiri'
 # require libraries/modules here
 
@@ -8,6 +8,7 @@ def create_project_hash
   binding.pry
 
   # projects: kickstarter.css("li.project.grid_4")
+
 end
 
 create_project_hash
